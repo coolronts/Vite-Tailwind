@@ -23,7 +23,7 @@ ChartJS.register(
   Legend
 );
 
-const options = {
+export const options = {
   responsive: true,
   maintainAspectRatio: true,
   interaction: {
@@ -61,7 +61,7 @@ const options = {
 
 const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
 
-const data = {
+export const data = {
   labels,
   datasets: [
     {
@@ -81,7 +81,7 @@ const data = {
   ],
 };
 
-export default function MultiLine() {
+export function MultiLine() {
   useEffect(() => { }, [options,data]);
   return (
      <Line options={options} data={data} />
