@@ -1,0 +1,14 @@
+import { PrimaryCard } from '../../components/Card'
+import React from 'react'
+
+export default function FullColouredCard() {
+  return (
+    <div className="text-white">
+      <div className="flex h-16 w-full justify-between">
+        <img className="p-3 bg-white opacity-80 rounded-xl"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDvh0099lNVsKbUJAygnN5Ql_LvdiUgS0A2Q&usqp=CAU" alt="" />
+      </div>
+      d
+    </div>
+  )
+}
