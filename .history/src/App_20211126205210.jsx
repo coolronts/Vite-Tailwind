@@ -83,7 +83,7 @@ function App() {
           <PrimaryCard color="white" className=" h-full w-full">
             <div className="p-4">
               <p className="text-2xl font-bold mb-10">Learning Activity</p>
-              <MultiLine/>
+              {/* <MultiLine/> */}
             </div>
           </PrimaryCard>
         </div>
