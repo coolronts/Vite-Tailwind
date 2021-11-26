@@ -24,7 +24,7 @@ export const data = {
       label: '',
       data: [80,30],
       backgroundColor: [
-        'rgba(52, 211, 153, 1)',
+        'rgba(21, 163, 156,1)',
         'rgba(255, 255, 255, 0.2)',
         
       ],

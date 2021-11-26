@@ -11,8 +11,7 @@ const series = [
   }
 ]
 
-const options = {
-      colors: ['#34D399', '#6D28D9'],
+   const options= {
     chart: {
       height: 350,
       type: 'area'
@@ -37,7 +36,7 @@ const options = {
     },
     tooltip: {
       x: {
-        format: 'MMM'
+        format: 'dd/MM/yy HH:mm'
       },
     },
   }

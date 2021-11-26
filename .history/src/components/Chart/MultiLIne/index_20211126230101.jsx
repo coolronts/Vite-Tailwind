@@ -12,7 +12,7 @@ const series = [
 ]
 
 const options = {
-      colors: ['#34D399', '#6D28D9'],
+      colors: ['#10B981', '#E91E63'],
     chart: {
       height: 350,
       type: 'area'
