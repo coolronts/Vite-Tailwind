@@ -19,7 +19,7 @@ const series = [
      legend: {
        position: 'top',
        fontSize: '16px',
-       offset: 0
+       offsetY: -30
      },
     dataLabels: {
       enabled: false

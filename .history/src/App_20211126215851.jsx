@@ -6,7 +6,7 @@ import {PrimaryCard, SecondaryCard} from './components/Card'
 import Class from './Section/Class'
 import FullColouredCard from './Section/FullColouredCard'
 import LeftDrawer from './Section/LeftDrawer'
-import MultiLine from './components/Chart/MultiLine'
+import {MultiLine} from './components/Chart/MultiLine'
 import PointCard from './Section/PointCard'
 import Portfolio from './Section/Portfoilo'
 import {RowList} from './components/List'
@@ -83,7 +83,7 @@ function App() {
           <PrimaryCard color="white" className=" h-full w-full">
             <div className="p-4">
               <p className="text-2xl font-bold mb-10">Learning Activity</p>
-              <MultiLine/>
+              {/* <MultiLine/> */}
             </div>
           </PrimaryCard>
         </div>
